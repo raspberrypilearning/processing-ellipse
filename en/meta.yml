@@ -1,0 +1,10 @@
+title: Draw an ellipse
+hero_image: images/banner.png
+description: Draw an ellipse in processing with Python
+version: 4
+listed: false
+copyedit: false
+last_tested: "2021-07-22"
+steps:
+  - title: Introduction
+
