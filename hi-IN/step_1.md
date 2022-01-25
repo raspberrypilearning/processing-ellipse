@@ -8,7 +8,10 @@ The ellipse will be drawn using the stroke and fill values that have been set be
 language: python
 filename: main.py
 ---
-  ellipse(160, 220, 200, 100) # x, y, width, height --- /code ---
+
+  ellipse(160, 220, 200, 100) # x, y, width, height
+
+--- /code ---
 
 The ellipse will be centered at the (x, y) coordinates given by the first two numbers.
 
