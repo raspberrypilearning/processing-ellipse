@@ -13,11 +13,11 @@ filename: main.py
 
 --- /code ---
 
-The ellipse will be centered at the (x, y) coordinates given by the first two numbers.
+La elipse estará centrada en las coordenadas (x, y) dadas por los dos primeros números.
 
 The third number is the width and the fourth is the height of the ellipse.
 
-![The output area showing an ellipse centred around x 160, y 220 with width 200 and height 100](images/example.png)
+![El área de salida que muestra una elipse centrada alrededor de x 160, y 220 con ancho 200 y alto 100](images/example.png)
 
 Make the width and height the same to draw a circle.
 
