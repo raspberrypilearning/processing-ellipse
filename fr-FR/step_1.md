@@ -1,7 +1,7 @@
 
-Draw a circle or ellipse using: `ellipse(x, y, width, height)`
+Dessiner un cercle ou une ellipse en utilisant : `ellipse(x, y, width, height)`
 
-The ellipse will be drawn using the stroke and fill values that have been set before `ellipse` is called.
+L'ellipse sera dessinée en utilisant les valeurs de trait et de remplissage qui ont été définies avant l'appel de `ellipse`.
 
 --- code ---
 ---
@@ -9,16 +9,16 @@ language: python
 filename: main.py
 ---
 
-  ellipse(160, 220, 200, 100) # x, y, width, height
+  ellipse(160, 220, 200, 100) # x, y, largeur, hauteur
 
 --- /code ---
 
-The ellipse will be centered at the (x, y) coordinates given by the first two numbers.
+L'ellipse sera centrée sur les coordonnées (x, y) données par les deux premiers nombres.
 
-The third number is the width and the fourth is the height of the ellipse.
+Le troisième nombre est la largeur et le quatrième est la hauteur de l'ellipse.
 
-![The output area showing an ellipse centred around x 160, y 220 with width 200 and height 100](images/example.png)
+![La zone de sortie montrant une ellipse centrée autour de x 160, y 220 avec une largeur de 200 et une hauteur de 100](images/example.png)
 
-Make the width and height the same to draw a circle.
+Fais en sorte que la largeur et la hauteur soient identiques pour dessiner un cercle.
 
 
