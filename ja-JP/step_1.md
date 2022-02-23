@@ -1,7 +1,7 @@
 
-Draw a circle or ellipse using: `ellipse(x, y, width, height)`
+次を使って円や楕円を描きます。`ellipse(x, y, 幅, 高さ)`
 
-The ellipse will be drawn using the stroke and fill values that have been set before `ellipse` is called.
+`ellipse`が呼び出される前に設定されていた輪郭線と塗りつぶしの値を使って楕円が描かれます。
 
 --- code ---
 ---
@@ -9,16 +9,16 @@ language: python
 filename: main.py
 ---
 
-  ellipse(160, 220, 200, 100) # x, y, width, height
+  ellipse(160, 220, 200, 100) # x, y, 幅, 高さ
 
 --- /code ---
 
-The ellipse will be centered at the (x, y) coordinates given by the first two numbers.
+楕円の中心は、最初の2つの数値で指定された(x, y)座標になります。
 
-The third number is the width and the fourth is the height of the ellipse.
+3番目の数字は楕円の幅で、4番目の数字は高さです。
 
-![The output area showing an ellipse centred around x 160, y 220 with width 200 and height 100](images/example.png)
+![x 160、y 220を中心とし、幅200、高さ100の楕円を示す出力領域](images/example.png)
 
-Make the width and height the same to draw a circle.
+真円を描くには幅と高さを同じにします。
 
 
