@@ -1,0 +1,11 @@
+---
+title: ارسم قطع ناقص
+hero_image: images/banner.png
+description: ارسم قطع ناقص في المعالجة باستخدام Python
+version: 4
+listed: false
+copyedit: false
+last_tested: "2021-07-22"
+steps:
+  - title: المقدمة
+
