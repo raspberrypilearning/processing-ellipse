@@ -1,7 +1,7 @@
 
-Draw a circle or ellipse using: `ellipse(x, y, width, height)`
+Σχεδίασε έναν κύκλο ή μία έλλειψη χρησιμοποιώντας: `ellipse (x, y, width, height)`
 
-The ellipse will be drawn using the stroke and fill values that have been set before `ellipse` is called.
+Η έλλειψη θα σχεδιαστεί χρησιμοποιώντας τις τιμές περιγράμματος και γεμίσματος που έχουν οριστεί πριν καλέσεις το `ellipse`.
 
 --- code ---
 ---
@@ -9,16 +9,16 @@ language: python
 filename: main.py
 ---
 
-  ellipse(160, 220, 200, 100) # x, y, width, height
+  ellipse(160, 220, 200, 100) # x, y, πλάτος, ύψος
 
 --- /code ---
 
-The ellipse will be centered at the (x, y) coordinates given by the first two numbers.
+Η έλλειψη θα κεντραριστεί στις συντεταγμένες (x, y) που δίνονται από τους δύο πρώτους αριθμούς.
 
-The third number is the width and the fourth is the height of the ellipse.
+Ο τρίτος αριθμός είναι το πλάτος και ο τέταρτος είναι το ύψος της έλλειψης.
 
-![The output area showing an ellipse centred around x 160, y 220 with width 200 and height 100](images/example.png)
+![Η περιοχή που προκύπτει δείχνει μία έλλειψη με κέντρο το x 160, y 220 και με πλάτος 200 και ύψος 100](images/example.png)
 
-Make the width and height the same to draw a circle.
+Κάνε ίδιο το πλάτος και το ύψος για να σχεδιάσεις έναν κύκλο.
 
 
