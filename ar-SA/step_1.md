@@ -1,7 +1,7 @@
 
-Draw a circle or ellipse using: `ellipse(x, y, width, height)`
+ارسم دائرة أو قطع ناقص باستخدام: `ellipse(x, y, width, height)`
 
-The ellipse will be drawn using the stroke and fill values that have been set before `ellipse` is called.
+القطع الناقص سوف يرسم باستخدام قيم الحد والتعبئة التي تم تعيينها قبل استدعاء `ellipse`.
 
 --- code ---
 ---
@@ -9,16 +9,16 @@ language: python
 filename: main.py
 ---
 
-  ellipse(160, 220, 200, 100) # x, y, width, height
+  ellipse(160, 220, 200, 100) # الموقع الافقي x, الموقع العامودي y, العرض, الطول
 
 --- /code ---
 
-The ellipse will be centered at the (x, y) coordinates given by the first two numbers.
+سيتم توسيط القطع الناقص عند إحداثيات (x, y) المعطاة بأول رقمين.
 
-The third number is the width and the fourth is the height of the ellipse.
+الرقم الثالث هو العرض والرابع هو ارتفاع القطع الناقص.
 
-![The output area showing an ellipse centred around x 160, y 220 with width 200 and height 100](images/example.png)
+![تُظهر منطقة الإخراج شكلًا بيضاويًا متمركزًا حول x 160 ، و y 220 بعرض 200 وارتفاع 100](images/example.png)
 
-Make the width and height the same to draw a circle.
+اجعل العرض والارتفاع متماثلين لرسم دائرة.
 
 
