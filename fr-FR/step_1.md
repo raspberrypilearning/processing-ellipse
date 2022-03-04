@@ -1,5 +1,5 @@
 
-Dessiner un cercle ou une ellipse en utilisant : `ellipse(x, y, width, height)`
+Dessiner un cercle ou une ellipse en utilisant : `ellipse(x, y, largeur, hauteur)`
 
 L'ellipse sera dessinée en utilisant les valeurs de trait et de remplissage qui ont été définies avant l'appel de `ellipse`.
 
