@@ -1,5 +1,5 @@
 
-Lluniwch gylch neu elips gan ddefnyddio: `ellipse(x, y, width, height)`
+Lluniwch gylch neu elips gan ddefnyddio: `ellipse(x, y, lled, uchder)`
 
 Bydd yr elips yn cael ei lunio gan ddefnyddio'r gwerthoedd strôc a llenwi sydd wedi'u gosod cyn galw `ellipse`.
 
