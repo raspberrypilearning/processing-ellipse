@@ -1,7 +1,7 @@
 
-Draw a circle or ellipse using: `ellipse(x, y, width, height)`
+Намалюй коло або овал за допомогою: `ellipse(x, y, ширина, висота)`
 
-The ellipse will be drawn using the stroke and fill values that have been set before `ellipse` is called.
+Овал буде намальований з використанням значень обведення та заливки, які були встановлені перед викликом `ellipse`.
 
 --- code ---
 ---
@@ -13,12 +13,12 @@ filename: main.py
 
 --- /code ---
 
-The ellipse will be centered at the (x, y) coordinates given by the first two numbers.
+Центр еліпса буде знаходитися в точках з координатами (x, y), заданими першими двома числами.
 
-The third number is the width and the fourth is the height of the ellipse.
+Третє число - ширина, а четверте - висота овалу.
 
-![The output area showing an ellipse centred around x 160, y 220 with width 200 and height 100](images/example.png)
+![Вихідна область відображає еліпс з центром у точках x - 160, y - 220, шириною 200 та висотою 100](images/example.png)
 
-Make the width and height the same to draw a circle.
+Зроби ширину та висоту однаковими, щоб намалювати коло.
 
 
