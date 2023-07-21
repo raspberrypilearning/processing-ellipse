@@ -9,7 +9,7 @@ language: python
 filename: main.py
 ---
 
-  ellipse(160, 220, 200, 100) # x, y, width, height
+    ellipse(160, 220, 200, 100)  # x, y, width, height
   
 --- /code ---
 
