@@ -1,7 +1,7 @@
 
-Draw a circle or ellipse using: `ellipse(x, y, width, height)`
+Narysuj okrąg lub elipsę używając polecenia: `ellipse(x, y, width, height)`
 
-The ellipse will be drawn using the stroke and fill values that have been set before `ellipse` is called.
+Elipsa zostanie narysowana przy użyciu wartości wypełnienia i obrysu ustawionych przed wywołaniem polecenia`ellipse`.
 
 --- code ---
 ---
@@ -9,7 +9,7 @@ language: python
 filename: main.py
 ---
 
-  ellipse(160, 220, 200, 100) # x, y, width, height
+    ellipse(160, 220, 200, 100)  # x, y, width, height
 
 --- /code ---
 
