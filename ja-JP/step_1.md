@@ -9,16 +9,16 @@ language: python
 filename: main.py
 ---
 
-  ellipse(160, 220, 200, 100) # x, y, 幅, 高さ
+    ellipse(160, 220, 200, 100)  # x, y, width, height
 
 --- /code ---
 
-楕円の中心は、最初の2つの数値で指定された(x, y)座標になります。
+The ellipse will be centered at the (x, y) coordinates given by the first two numbers.
 
-3番目の数字は楕円の幅で、4番目の数字は高さです。
+The third number is the width and the fourth is the height of the ellipse.
 
-![x 160、y 220を中心とし、幅200、高さ100の楕円を示す出力領域](images/example.png)
+![The output area showing an ellipse centred around x 160, y 220 with width 200 and height 100](images/example.png)
 
-真円を描くには幅と高さを同じにします。
+Make the width and height the same to draw a circle.
 
 
