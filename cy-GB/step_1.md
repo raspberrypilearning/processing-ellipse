@@ -9,16 +9,16 @@ language: python
 filename: main.py
 ---
 
-  ellipse(160, 220, 200, 100) # x, y, lled, uchder
+    ellipse(160, 220, 200, 100)  # x, y, width, height
 
 --- /code ---
 
-Bydd yr elips wedi'i ganoli yn y cyfesurynnau (x, y) sy'n cael eu rhoi gan y ddau rif cyntaf.
+The ellipse will be centered at the (x, y) coordinates given by the first two numbers.
 
-Y trydydd rhif yw lled yr elips a'r pedwerydd yw ei uchder.
+The third number is the width and the fourth is the height of the ellipse.
 
-![Yr ardal allbwn yn dangos elips wedi'i ganoli o amgylch x 160, y 220 gyda lled o 200 ac uchder o 100](images/example.png)
+![The output area showing an ellipse centred around x 160, y 220 with width 200 and height 100](images/example.png)
 
-I lunio cylch, gwnewch y lled a'r uchder yr un fath.
+Make the width and height the same to draw a circle.
 
 
