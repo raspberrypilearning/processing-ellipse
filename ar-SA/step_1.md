@@ -9,16 +9,16 @@ language: python
 filename: main.py
 ---
 
-  ellipse(160, 220, 200, 100) # الموقع الافقي x, الموقع العامودي y, العرض, الطول
+    ellipse(160, 220, 200, 100)  # x, y, width, height
 
 --- /code ---
 
-سيتم توسيط القطع الناقص عند إحداثيات (x, y) المعطاة بأول رقمين.
+The ellipse will be centered at the (x, y) coordinates given by the first two numbers.
 
-الرقم الثالث هو العرض والرابع هو ارتفاع القطع الناقص.
+The third number is the width and the fourth is the height of the ellipse.
 
-![تُظهر منطقة الإخراج شكلًا بيضاويًا متمركزًا حول x 160 ، و y 220 بعرض 200 وارتفاع 100](images/example.png)
+![The output area showing an ellipse centred around x 160, y 220 with width 200 and height 100](images/example.png)
 
-اجعل العرض والارتفاع متماثلين لرسم دائرة.
+Make the width and height the same to draw a circle.
 
 
