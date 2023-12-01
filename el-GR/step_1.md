@@ -9,16 +9,16 @@ language: python
 filename: main.py
 ---
 
-  ellipse(160, 220, 200, 100) # x, y, πλάτος, ύψος
+    ellipse(160, 220, 200, 100)  # x, y, width, height
 
 --- /code ---
 
-Η έλλειψη θα κεντραριστεί στις συντεταγμένες (x, y) που δίνονται από τους δύο πρώτους αριθμούς.
+The ellipse will be centered at the (x, y) coordinates given by the first two numbers.
 
-Ο τρίτος αριθμός είναι το πλάτος και ο τέταρτος είναι το ύψος της έλλειψης.
+The third number is the width and the fourth is the height of the ellipse.
 
-![Η περιοχή που προκύπτει δείχνει μία έλλειψη με κέντρο το x 160, y 220 και με πλάτος 200 και ύψος 100](images/example.png)
+![The output area showing an ellipse centred around x 160, y 220 with width 200 and height 100](images/example.png)
 
-Κάνε ίδιο το πλάτος και το ύψος για να σχεδιάσεις έναν κύκλο.
+Make the width and height the same to draw a circle.
 
 
