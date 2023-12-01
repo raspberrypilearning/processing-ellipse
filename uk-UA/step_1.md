@@ -9,16 +9,16 @@ language: python
 filename: main.py
 ---
 
-  ellipse(160, 220, 200, 100) # x, y, width, height
+    ellipse(160, 220, 200, 100)  # x, y, width, height
 
 --- /code ---
 
-Центр еліпса буде знаходитися в точках з координатами (x, y), заданими першими двома числами.
+The ellipse will be centered at the (x, y) coordinates given by the first two numbers.
 
-Третє число - ширина, а четверте - висота овалу.
+The third number is the width and the fourth is the height of the ellipse.
 
-![Вихідна область відображає еліпс з центром у точках x - 160, y - 220, шириною 200 та висотою 100](images/example.png)
+![The output area showing an ellipse centred around x 160, y 220 with width 200 and height 100](images/example.png)
 
-Зроби ширину та висоту однаковими, щоб намалювати коло.
+Make the width and height the same to draw a circle.
 
 
