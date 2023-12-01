@@ -9,16 +9,16 @@ language: python
 filename: main.py
 ---
 
-  ellipse(160, 220, 200, 100) # x, y, largeur, hauteur
+    ellipse(160, 220, 200, 100)  # x, y, width, height
 
 --- /code ---
 
-L'ellipse sera centrée sur les coordonnées (x, y) données par les deux premiers nombres.
+The ellipse will be centered at the (x, y) coordinates given by the first two numbers.
 
-Le troisième nombre est la largeur et le quatrième est la hauteur de l'ellipse.
+The third number is the width and the fourth is the height of the ellipse.
 
-![La zone de sortie montrant une ellipse centrée autour de x 160, y 220 avec une largeur de 200 et une hauteur de 100](images/example.png)
+![The output area showing an ellipse centred around x 160, y 220 with width 200 and height 100](images/example.png)
 
-Fais en sorte que la largeur et la hauteur soient identiques pour dessiner un cercle.
+Make the width and height the same to draw a circle.
 
 
