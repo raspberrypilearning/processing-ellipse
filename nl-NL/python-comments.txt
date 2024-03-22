@@ -1,1 +1,1 @@
-x, y, width, height
+x, y, breedte, hoogte
