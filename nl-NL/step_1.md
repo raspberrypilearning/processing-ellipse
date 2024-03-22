@@ -9,16 +9,16 @@ language: python
 filename: main.py
 ---
 
-    ellipse(160, 220, 200, 100)  # x, y, width, height
+    ellipse(160, 220, 200, 100) # x, y, breedte, hoogte
 
 --- /code ---
 
-The ellipse will be centered at the (x, y) coordinates given by the first two numbers.
+De ellips wordt gecentreerd op de (x, y)-coördinaten die door de eerste twee getallen worden gegeven.
 
-The third number is the width and the fourth is the height of the ellipse.
+Het derde getal is de breedte en het vierde is de hoogte van de ellips.
 
-![The output area showing an ellipse centred around x 160, y 220 with width 200 and height 100](images/example.png)
+![Het uitvoergebied met een ellips gecentreerd rond x 160, y 220 met een breedte van 200 en een hoogte van 100](images/example.png)
 
-Make the width and height the same to draw a circle.
+Maak de breedte gelijk aan de hoogte om een cirkel te tekenen.
 
 
